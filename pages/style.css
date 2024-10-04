@@ -1,0 +1,79 @@
+ /* Styles pour le titre */
+ h1 {
+     text-align: center;
+    margin: 10px 0px 30px 0px;
+     /* Réduire l'espace entre le titre et les boutons, espacement entre le titre et les boutons */
+ }
+
+ /* Style pour le conteneur englobant les éléments à centrer */
+ /*.centered-container {
+     text-align: center;
+     /* Centrage horizontal */
+     /*display: flex;
+     flex-direction: column;
+     min-height: 20vh;
+     justify-content: space-between;
+ }*/
+
+ /* Style pour les boutons du menu */
+ .dropbtn {
+     background-color: #3498db;
+     color: white;
+     padding: 12px;
+     font-size: 16px;
+     border: none;
+     cursor: pointer;
+     border-radius: 4px;
+ }
+ 
+ /* Style pour le conteneur des boutons */
+ .buttons-container {
+     display: flex;
+     justify-content: center;
+     /*margin-bottom: 50px;*/
+     /* Espacement accru entre les boutons et le footer */
+ }
+
+ /* Style pour le contenu du menu déroulant */
+ .dropdown {
+     display: inline-block;
+     margin: 0 10px;
+ }
+
+ /* Style pour le contenu du menu déroulant */
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+     border-radius: 4px;
+ }
+
+ /* Affichage du sous-menu au survol du menu principal */
+ .dropdown:hover .dropdown-content {
+     display: block;
+ }
+
+ /* Style pour les liens dans le sous-menu */
+ .dropdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+ }
+
+ /* Changement de couleur des liens au survol */
+ .dropdown-content a:hover {
+     background-color: #f1f1f1;
+ }
+
+ footer {
+     /* Styles pour le footer */
+    padding: 20px 0;
+     /* Espacement du footer par rapport au bas de la page */
+    background-color: #f5f5f5;
+    text-align: center;
+    height: 50px;
+}
