@@ -2,10 +2,10 @@
 
 // On défini la base de données MySQL avec PDO
 
-define('HOST', "sqlprive-pc2372-001.eu.clouddb.ovh.net:35167");
-define('DBNAME', "cefiidev1385");
-define('USER', "cefiidev1385");
-define('PASSWORD', "wy56ZSw6");
+define('HOST', "#");
+define('DBNAME', "#");
+define('USER', "#");
+define('PASSWORD', "#");
 
 try {
 
